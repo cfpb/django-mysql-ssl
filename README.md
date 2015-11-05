@@ -1,10 +1,11 @@
 # Django MySQL SSL
 
-**Description**:  Backport support for manage.py dbshell when mysql SSL is enabled
+**Description**:  If your Django version is less than 1.8, the `dbshell` command will not work with you have MySQL with SSL enabled. This module backports the functionality in Django 1.8 to previous versions.
 
 ## Dependencies
 
-This application is confirmed to work with Django 1.5. It should also work with Django 1.6-1.7.  This plugin is not necessary for Django 1.8, as the capability is built into the core.
+1. Django with version < 1.8
+1. MySQL database with SSL enabled
 
 ## Installation
 
